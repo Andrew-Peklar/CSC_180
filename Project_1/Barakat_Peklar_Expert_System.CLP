@@ -4,7 +4,7 @@
 ;Section:	Natalia sec1, Andrew sec2
 ;-------------------------------------------------
 
-;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++Start of Facts++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++Start of Facts++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ;Facts:   Database lookup table for patient insurance accounts
 ;Fee  :   Contract/None
 ;Wait :   Preventative-Basic-Major
@@ -38,12 +38,12 @@
 ;           Num   Service               CF       NCF    SSS     SSC    Cat.
 ;           ---   ---------------       --      ----    ---     ---    -----
 (deffacts    Dental-Services
-	(services  1    X-Ray                 30        30    100     100    Prev.  )	;Facts:   This database contains insurance information about dental services
-	(services  2    Examination           40        40    100     100    Prev.  )	;CF   :   Contract Fee rates for services
-	(services  3    Alloy-Filing          75       100    75       70    Basic  )	;NCF  :   Non-Contract Fee rates for services
-	(services  4    Install-Crown         700      800    50       45    Major  )	;SSS  :   Standard Share Shield percentage (%)
-	(services  5    Composite-Fill        100      125    75       70    Basic  ) ;SSC  :   ...............Cross................
-	(services  6    Routine-Extract       90       150    85       80    Basic  )	;Cat  :   Insurance categories for patient services
+	(services  1    X-Ray                 30        30    100     100    Prev.  )
+	(services  2    Examination           40        40    100     100    Prev.  )
+	(services  3    Alloy-Filing          75       100    75       70    Basic  )
+	(services  4    Install-Crown         700      800    50       45    Major  )
+	(services  5    Composite-Fill        100      125    75       70    Basic  )
+	(services  6    Routine-Extract       90       150    85       80    Basic  )
 	(services  7    Fluoride-Cleaning     70        80    100     100    Prev.  )
 	(services  8    Denture-Evaluation    1800    2000    70       65    Major  )
 );           -    ------------------    ----    ----    ---    ----    -----
@@ -52,10 +52,10 @@
 (deffacts patient-account-input
 	(get-next-input)
 );------------------------------------------------
-;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++End Of Facts+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++End Of Facts+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++Start of User Input+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++Start of User Input+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ;Prompt: Start and ask for Insurance ID or SSN if ID not available
 (defrule patient-ID-prompt
 	?info <- (get-next-input)
@@ -108,14 +108,14 @@
 	(get-next-input)
 	=>
 	(printout t "What is the purpose for your visit today? " crlf)
-		(printout t "-- (1) --X-Ray " crlf)
-		(printout t "-- (2) --Examination " crlf)
-		(printout t "-- (3) --Alloy filing " crlf)
-		(printout t "-- (4) --Install a crown " crlf)
-		(printout t "-- (5) --Composite filing " crlf)
-		(printout t "-- (6) --Routine extraction " crlf)
-		(printout t "-- (7) --Cleaning + Flouride treatment " crlf)
-		(printout t "-- (8) --Upper and/or Lower denture eval " crlf)
+		(printout t "  <1> X-Ray " crlf)
+		(printout t "  <2> Examination " crlf)
+		(printout t "  <3> Alloy filing " crlf)
+		(printout t "  <4> Install a crown " crlf)
+		(printout t "  <5> Composite filing " crlf)
+		(printout t "  <6> Routine extraction " crlf)
+		(printout t "  <7> Cleaning + Flouride treatment " crlf)
+		(printout t "  <8> Upper and/or Lower denture eval " crlf)
 	(printout t "Please enter the corrosponding service number: " )
 			(bind ?Service (read))
 			(assert (selected-service ?Service))
