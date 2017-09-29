@@ -6,12 +6,12 @@
 
 ;Facts:	connections between cities
 (deffacts connections
-	(from-to tahoe 		fairfield )
-	(from-to fairfield	galt	  )
-	(from-to chico		galt	  )
-	(from-to galt		sacramento)
-	(from-to sacramento	davis	  )
-	(from-to chico		davis	  )
+	(from-to tahoe 			fairfield )
+	(from-to fairfield	galt		  )
+	(from-to chico			galt		  )
+	(from-to galt				sacramento)
+	(from-to sacramento	davis		  )
+	(from-to chico			davis		  )
 );----------------------------------------------------
 
 ;Facts: used to set input as facts
@@ -57,15 +57,3 @@
 	(retract ?f)
 	(assert (travel ?d ?y))
 );----------------------------------------------------
-
-
-
-
-
-
-
-	
-
-
-
-
