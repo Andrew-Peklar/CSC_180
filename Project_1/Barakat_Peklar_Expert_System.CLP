@@ -86,7 +86,7 @@
 	(services  1    X-Ray                 30        30    100     100    Prev.  )
 	(services  2    Examination           40        40    100     100    Prev.  )
 	(services  3    Alloy-Filing          75       100    75       70    Basic  )
-	(services  4    Install-Crown         700      800    50       45    Major  )
+	(services  4    Install-Crown         700      800    50       40    Major  )
 	(services  5    Composite-Fill        100      125    75       70    Basic  )
 	(services  6    Routine-Extract       90       150    85       80    Basic  )
 	(services  7    Fluoride-Cleaning     70        80    100     100    Prev.  )
@@ -236,7 +236,7 @@
 	(crispSSMajor ?a)
 	(crispPC ?d)
 	=>
-	(assert (SSBasic (?a 0) (?a 1) (?a 0)))
+	(assert (SSMajor (?a 0) (?a 1) (?a 0)))
 	(assert (PC (?d 0) (?d 1) (?d 0)))
 )
 
@@ -254,7 +254,7 @@
 	?f <- (FSMajor ?)
 	=>
 	(bind ?t (moment-defuzzify ?f))
-	(printout t "action--> " ?t crlf)
+	(assert (insurance-pays ?t))
 )
 
 (defrule defuzzify-FSBasic
@@ -262,8 +262,10 @@
 	?f <- (FSBasic ?)
 	=>
 	(bind ?t (moment-defuzzify ?f))
-	(printout t "action--> " ?t crlf)
+	(assert (insurance-pays ?t))
 )
+
+
 
 (defrule MPP
 	(SSMajor Pos)
@@ -370,3 +372,20 @@
 										 (PC Neg)
 										 =>
 										 (assert (FSBasic BN)))
+
+(defrule final-cost
+	(patient-is ?A	?B	?C	?D	?E ?F	?G	?H	?I	?J	?K	?L	?M	?N ?O)
+	(selected-service ?S)
+	(services ?S ?U ?V ?W ?X ?Y ?Z)
+	(insurance-pays ?KK)
+	=>
+	(assert (CF-out (* (/ (- 100 ?KK) 100) ?V)))
+)
+
+(defrule first-time
+	(patient-is ?A	?B	?C	?D	?E ?F	?G	?H	?I	?J	?K	?L	?M	?N ?O)
+	(first-visit yes)
+	(CF-out ?X)
+	=>
+	(printout t "The cost to you = $" ?X " " crlf)
+)
