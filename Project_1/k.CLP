@@ -40,8 +40,9 @@
 	(crispSS ?a)
 	(crispPC ?d)
 	=>
-	(assert (SS (?a 0) (?a 1) (?a 0)))
-	(assert (PC (?d 0) (?d 1) (?d 0))))
+	;(assert (SS (?a 0) (?a 1) (?a 0)))
+	;(assert (PC (?d 0) (?d 1) (?d 0)))
+	)
 
 (defrule defuzzify1
 (declare (salience -1))
