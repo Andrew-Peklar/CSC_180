@@ -1,1 +1,0 @@
-abs(x+y)  + abs(x - y) + (sin(2y) + sin(2x))

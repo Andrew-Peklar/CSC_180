@@ -1,0 +1,4 @@
+Chosen Function:	f(x,y) = abs(x+y)  + abs(x-y) + (sin(2y) + sin(2x))
+
+Images Source:		https://academo.org/demos/3d-surface-plotter/
+
