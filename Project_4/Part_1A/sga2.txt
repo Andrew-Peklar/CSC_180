@@ -1,6 +1,6 @@
 
 GENERATION: 0
-Selected Strings: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Selected Strings: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 	X	Y		f(x)		new_str
    1580.621	1238.047	3162.455	1010110100010010000011011010101111110000
@@ -29,7 +29,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: 0.0009  Fitness = 0.0055
 
 GENERATION: 0
-Selected Strings: 12 18 6 6 8 9 16 18 8 2 2 18 8 9 10 16 11 15 5 10 
+Selected Strings: 12 18 6 6 8 9 16 18 8 2 2 18 8 9 10 16 11 15 5 10
 
 	X	Y		f(x)		new_str
    1580.621	1238.047	3162.455	1010110100010010000011011010101111110000
@@ -58,7 +58,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: 0.0009  Fitness = 0.0055
 
 GENERATION: 0
-Selected Strings: 12 18 6 6 8 9 16 18 8 2 2 18 8 9 10 16 11 15 5 10 
+Selected Strings: 12 18 6 6 8 9 16 18 8 2 2 18 8 9 10 16 11 15 5 10
 
 	X	Y		f(x)		new_str
    1580.621	1238.047	3162.455	1010110100010010000011011010101111110000
@@ -87,7 +87,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: 0.0009  Fitness = 0.0055
 
 GENERATION: 0
-Selected Strings: 12 18 6 6 8 9 16 18 8 2 2 18 8 9 10 16 11 15 5 10 
+Selected Strings: 12 18 6 6 8 9 16 18 8 2 2 18 8 9 10 16 11 15 5 10
 
 	X	Y		f(x)		new_str
    1527.525	1458.348	3057.002	1100101001110001100011010011101010101011
@@ -116,7 +116,7 @@ Best result over all generations:
 Decoded value = X: -0.5264  Y: -0.5283  Fitness = -0.6830
 
 GENERATION: 0
-Selected Strings: 3 16 13 3 3 1 15 16 13 19 1 14 9 7 4 19 5 13 6 17 
+Selected Strings: 3 16 13 3 3 1 15 16 13 19 1 14 9 7 4 19 5 13 6 17
 
 	X	Y		f(x)		new_str
    1527.525	1458.348	3057.002	1100101001110001100011010011101010101011
@@ -145,7 +145,7 @@ Best result over all generations:
 Decoded value = X: -0.5264  Y: -0.5283  Fitness = -0.6830
 
 GENERATION: 0
-Selected Strings: 3 16 13 3 3 1 15 16 13 19 1 14 9 7 4 19 5 13 6 17 
+Selected Strings: 3 16 13 3 3 1 15 16 13 19 1 14 9 7 4 19 5 13 6 17
 
 	X	Y		f(x)		new_str
    1527.525	1458.348	3057.002	1100101001110001100011010011101010101011
@@ -174,7 +174,7 @@ Best result over all generations:
 Decoded value = X: -0.5264  Y: -0.5283  Fitness = -0.6830
 
 GENERATION: 0
-Selected Strings: 3 16 13 3 3 1 15 16 13 19 1 14 9 7 4 19 5 13 6 17 
+Selected Strings: 3 16 13 3 3 1 15 16 13 19 1 14 9 7 4 19 5 13 6 17
 
 	X	Y		f(x)		new_str
    1527.525	1458.348	3057.002	1100101001110001100011010011101010101011
@@ -203,7 +203,7 @@ Best result over all generations:
 Decoded value = X: -0.5264  Y: -0.5283  Fitness = -0.6830
 
 GENERATION: 0
-Selected Strings: 3 16 13 3 3 1 15 16 13 19 1 14 9 7 4 19 5 13 6 17 
+Selected Strings: 3 16 13 3 3 1 15 16 13 19 1 14 9 7 4 19 5 13 6 17
 
 	X	Y		f(x)		new_str
    1527.525	1458.348	3057.002	1100101001110001100011010011101010101011
@@ -232,7 +232,7 @@ Best result over all generations:
 Decoded value = X: -0.5264  Y: -0.5283  Fitness = -0.6830
 
 GENERATION: 0
-Selected Strings: 3 16 13 3 3 1 15 16 13 19 1 14 9 7 4 19 5 13 6 17 
+Selected Strings: 3 16 13 3 3 1 15 16 13 19 1 14 9 7 4 19 5 13 6 17
 
 	X	Y		f(x)		new_str
    1094.726	67.463	2189.849	0001000011111110101110011001111101100001
@@ -261,7 +261,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: 0.0009  Fitness = 0.0055
 
 GENERATION: 0
-Selected Strings: 12 6 16 19 19 8 7 6 13 4 12 0 9 6 8 3 11 4 1 3 
+Selected Strings: 12 6 16 19 19 8 7 6 13 4 12 0 9 6 8 3 11 4 1 3
 
 	X	Y		f(x)		new_str
    1094.726	67.463	2189.849	0001000011111110101110011001111101100001
@@ -290,7 +290,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: 0.0009  Fitness = 0.0055
 
 GENERATION: 0
-Selected Strings: 12 6 16 19 19 8 7 6 13 4 12 0 9 6 8 3 11 4 1 3 
+Selected Strings: 12 6 16 19 19 8 7 6 13 4 12 0 9 6 8 3 11 4 1 3
 
 	X	Y		f(x)		new_str
    1094.726	67.463	2189.849	0001000011111110101110011001111101100001
@@ -319,7 +319,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: 0.0009  Fitness = 0.0055
 
 GENERATION: 0
-Selected Strings: 12 6 16 19 19 8 7 6 13 4 12 0 9 6 8 3 11 4 1 3 
+Selected Strings: 12 6 16 19 19 8 7 6 13 4 12 0 9 6 8 3 11 4 1 3
 
 	X	Y		f(x)		new_str
    1094.726	67.463	2189.849	0001000011111110101110011001111101100001
@@ -348,7 +348,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: 0.0009  Fitness = 0.0055
 
 GENERATION: 0
-Selected Strings: 12 6 16 19 19 8 7 6 13 4 12 0 9 6 8 3 11 4 1 3 
+Selected Strings: 12 6 16 19 19 8 7 6 13 4 12 0 9 6 8 3 11 4 1 3
 
 	X	Y		f(x)		new_str
    1094.726	67.463	2189.849	0001000011111110101110011001111101100001
@@ -377,7 +377,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: 0.0009  Fitness = 0.0055
 
 GENERATION: 0
-Selected Strings: 12 6 16 19 19 8 7 6 13 4 12 0 9 6 8 3 11 4 1 3 
+Selected Strings: 12 6 16 19 19 8 7 6 13 4 12 0 9 6 8 3 11 4 1 3
 
 	X	Y		f(x)		new_str
    143.926	246.104	492.138	0010100011010000001100011011001100001001
@@ -406,7 +406,7 @@ Best result over all generations:
 Decoded value = X: -0.0009  Y: 0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 0 19 8 12 8 0 18 4 6 8 16 6 19 1 9 0 13 1 11 12 
+Selected Strings: 0 19 8 12 8 0 18 4 6 8 16 6 19 1 9 0 13 1 11 12
 
 	X	Y		f(x)		new_str
    143.926	246.104	492.138	0010100011010000001100011011001100001001
@@ -435,7 +435,7 @@ Best result over all generations:
 Decoded value = X: -0.0009  Y: 0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 0 19 8 12 8 0 18 4 6 8 16 6 19 1 9 0 13 1 11 12 
+Selected Strings: 0 19 8 12 8 0 18 4 6 8 16 6 19 1 9 0 13 1 11 12
 
 	X	Y		f(x)		new_str
    143.926	246.104	492.138	0010100011010000001100011011001100001001
@@ -464,7 +464,7 @@ Best result over all generations:
 Decoded value = X: -0.0009  Y: 0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 0 19 8 12 8 0 18 4 6 8 16 6 19 1 9 0 13 1 11 12 
+Selected Strings: 0 19 8 12 8 0 18 4 6 8 16 6 19 1 9 0 13 1 11 12
 
 	X	Y		f(x)		new_str
    143.926	246.104	492.138	0010100011010000001100011011001100001001
@@ -493,7 +493,7 @@ Best result over all generations:
 Decoded value = X: -0.0009  Y: 0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 0 19 8 12 8 0 18 4 6 8 16 6 19 1 9 0 13 1 11 12 
+Selected Strings: 0 19 8 12 8 0 18 4 6 8 16 6 19 1 9 0 13 1 11 12
 
 	X	Y		f(x)		new_str
    143.926	246.104	492.138	0010100011010000001100011011001100001001
@@ -522,7 +522,7 @@ Best result over all generations:
 Decoded value = X: -0.0009  Y: 0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 0 19 8 12 8 0 18 4 6 8 16 6 19 1 9 0 13 1 11 12 
+Selected Strings: 0 19 8 12 8 0 18 4 6 8 16 6 19 1 9 0 13 1 11 12
 
 	X	Y		f(x)		new_str
    143.926	246.104	492.138	0010100011010000001100011011001100001001
@@ -551,7 +551,7 @@ Best result over all generations:
 Decoded value = X: -0.0009  Y: 0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 0 19 8 12 8 0 18 4 6 8 16 6 19 1 9 0 13 1 11 12 
+Selected Strings: 0 19 8 12 8 0 18 4 6 8 16 6 19 1 9 0 13 1 11 12
 
 	X	Y		f(x)		new_str
    1841.396	1559.684	3683.772	1101011111110100011011111101100001000000
@@ -580,7 +580,7 @@ Best result over all generations:
 Decoded value = X: -0.0009  Y: 0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 5 18 14 10 6 12 6 6 8 16 2 11 2 14 5 8 13 16 7 0 
+Selected Strings: 5 18 14 10 6 12 6 6 8 16 2 11 2 14 5 8 13 16 7 0
 
 	X	Y		f(x)		new_str
    1841.396	1559.684	3683.772	1101011111110100011011111101100001000000
@@ -609,7 +609,7 @@ Best result over all generations:
 Decoded value = X: -0.0009  Y: 0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 5 18 14 10 6 12 6 6 8 16 2 11 2 14 5 8 13 16 7 0 
+Selected Strings: 5 18 14 10 6 12 6 6 8 16 2 11 2 14 5 8 13 16 7 0
 
 	X	Y		f(x)		new_str
    1841.396	1559.684	3683.772	1101011111110100011011111101100001000000
@@ -638,7 +638,7 @@ Best result over all generations:
 Decoded value = X: -0.0009  Y: 0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 5 18 14 10 6 12 6 6 8 16 2 11 2 14 5 8 13 16 7 0 
+Selected Strings: 5 18 14 10 6 12 6 6 8 16 2 11 2 14 5 8 13 16 7 0
 
 	X	Y		f(x)		new_str
    1841.396	1559.684	3683.772	1101011111110100011011111101100001000000
@@ -667,7 +667,7 @@ Best result over all generations:
 Decoded value = X: -0.0009  Y: 0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 5 18 14 10 6 12 6 6 8 16 2 11 2 14 5 8 13 16 7 0 
+Selected Strings: 5 18 14 10 6 12 6 6 8 16 2 11 2 14 5 8 13 16 7 0
 
 	X	Y		f(x)		new_str
    1841.396	1559.684	3683.772	1101011111110100011011111101100001000000
@@ -696,7 +696,7 @@ Best result over all generations:
 Decoded value = X: -0.0009  Y: 0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 5 18 14 10 6 12 6 6 8 16 2 11 2 14 5 8 13 16 7 0 
+Selected Strings: 5 18 14 10 6 12 6 6 8 16 2 11 2 14 5 8 13 16 7 0
 
 	X	Y		f(x)		new_str
    1841.396	1559.684	3683.772	1101011111110100011011111101100001000000
@@ -725,7 +725,7 @@ Best result over all generations:
 Decoded value = X: -0.0009  Y: 0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 5 18 14 10 6 12 6 6 8 16 2 11 2 14 5 8 13 16 7 0 
+Selected Strings: 5 18 14 10 6 12 6 6 8 16 2 11 2 14 5 8 13 16 7 0
 
 	X	Y		f(x)		new_str
    1626.325	-20.712	3252.309	0000010100111101000011100000110101110000
@@ -754,7 +754,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: 0.0009  Fitness = 0.0055
 
 GENERATION: 0
-Selected Strings: 5 9 10 7 1 14 8 4 14 0 9 6 7 19 9 16 4 18 10 4 
+Selected Strings: 5 9 10 7 1 14 8 4 14 0 9 6 7 19 9 16 4 18 10 4
 
 	X	Y		f(x)		new_str
    1626.325	-20.712	3252.309	0000010100111101000011100000110101110000
@@ -783,7 +783,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: 0.0009  Fitness = 0.0055
 
 GENERATION: 0
-Selected Strings: 5 9 10 7 1 14 8 4 14 0 9 6 7 19 9 16 4 18 10 4 
+Selected Strings: 5 9 10 7 1 14 8 4 14 0 9 6 7 19 9 16 4 18 10 4
 
 	X	Y		f(x)		new_str
    1626.325	-20.712	3252.309	0000010100111101000011100000110101110000
@@ -812,7 +812,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: 0.0009  Fitness = 0.0055
 
 GENERATION: 0
-Selected Strings: 5 9 10 7 1 14 8 4 14 0 9 6 7 19 9 16 4 18 10 4 
+Selected Strings: 5 9 10 7 1 14 8 4 14 0 9 6 7 19 9 16 4 18 10 4
 
 	X	Y		f(x)		new_str
    1626.325	-20.712	3252.309	0000010100111101000011100000110101110000
@@ -841,7 +841,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: 0.0009  Fitness = 0.0055
 
 GENERATION: 0
-Selected Strings: 5 9 10 7 1 14 8 4 14 0 9 6 7 19 9 16 4 18 10 4 
+Selected Strings: 5 9 10 7 1 14 8 4 14 0 9 6 7 19 9 16 4 18 10 4
 
 	X	Y		f(x)		new_str
    1626.325	-20.712	3252.309	0000010100111101000011100000110101110000
@@ -870,7 +870,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: 0.0009  Fitness = 0.0055
 
 GENERATION: 0
-Selected Strings: 5 9 10 7 1 14 8 4 14 0 9 6 7 19 9 16 4 18 10 4 
+Selected Strings: 5 9 10 7 1 14 8 4 14 0 9 6 7 19 9 16 4 18 10 4
 
 	X	Y		f(x)		new_str
    1626.325	-20.712	3252.309	0000010100111101000011100000110101110000
@@ -899,7 +899,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: 0.0009  Fitness = 0.0055
 
 GENERATION: 0
-Selected Strings: 5 9 10 7 1 14 8 4 14 0 9 6 7 19 9 16 4 18 10 4 
+Selected Strings: 5 9 10 7 1 14 8 4 14 0 9 6 7 19 9 16 4 18 10 4
 
 	X	Y		f(x)		new_str
    1742.419	810.345	3483.749	0111010000001011010111110000010100011010
@@ -928,7 +928,7 @@ Best result over all generations:
 Decoded value = X: -0.0009  Y: 0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 17 15 4 18 4 12 2 0 18 13 12 7 17 0 15 10 12 15 18 17 
+Selected Strings: 17 15 4 18 4 12 2 0 18 13 12 7 17 0 15 10 12 15 18 17
 
 	X	Y		f(x)		new_str
    1742.419	810.345	3483.749	0111010000001011010111110000010100011010
@@ -957,7 +957,7 @@ Best result over all generations:
 Decoded value = X: -0.0009  Y: 0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 17 15 4 18 4 12 2 0 18 13 12 7 17 0 15 10 12 15 18 17 
+Selected Strings: 17 15 4 18 4 12 2 0 18 13 12 7 17 0 15 10 12 15 18 17
 
 	X	Y		f(x)		new_str
    1742.419	810.345	3483.749	0111010000001011010111110000010100011010
@@ -986,7 +986,7 @@ Best result over all generations:
 Decoded value = X: -0.0009  Y: 0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 17 15 4 18 4 12 2 0 18 13 12 7 17 0 15 10 12 15 18 17 
+Selected Strings: 17 15 4 18 4 12 2 0 18 13 12 7 17 0 15 10 12 15 18 17
 
 	X	Y		f(x)		new_str
    1742.419	810.345	3483.749	0111010000001011010111110000010100011010
@@ -1015,7 +1015,7 @@ Best result over all generations:
 Decoded value = X: -0.0009  Y: 0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 17 15 4 18 4 12 2 0 18 13 12 7 17 0 15 10 12 15 18 17 
+Selected Strings: 17 15 4 18 4 12 2 0 18 13 12 7 17 0 15 10 12 15 18 17
 
 	X	Y		f(x)		new_str
    1742.419	810.345	3483.749	0111010000001011010111110000010100011010
@@ -1044,7 +1044,7 @@ Best result over all generations:
 Decoded value = X: -0.0009  Y: 0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 17 15 4 18 4 12 2 0 18 13 12 7 17 0 15 10 12 15 18 17 
+Selected Strings: 17 15 4 18 4 12 2 0 18 13 12 7 17 0 15 10 12 15 18 17
 
 	X	Y		f(x)		new_str
    1742.419	810.345	3483.749	0111010000001011010111110000010100011010
@@ -1073,7 +1073,7 @@ Best result over all generations:
 Decoded value = X: -0.0009  Y: 0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 17 15 4 18 4 12 2 0 18 13 12 7 17 0 15 10 12 15 18 17 
+Selected Strings: 17 15 4 18 4 12 2 0 18 13 12 7 17 0 15 10 12 15 18 17
 
 	X	Y		f(x)		new_str
    370.348	1641.021	3282.180	1110001011001100101000111001011000010000
@@ -1102,7 +1102,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: 0.0009  Fitness = 0.0055
 
 GENERATION: 0
-Selected Strings: 14 7 8 11 11 14 0 11 11 19 2 19 8 7 5 9 13 9 14 11 
+Selected Strings: 14 7 8 11 11 14 0 11 11 19 2 19 8 7 5 9 13 9 14 11
 
 	X	Y		f(x)		new_str
    370.348	1641.021	3282.180	1110001011001100101000111001011000010000
@@ -1131,7 +1131,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: 0.0009  Fitness = 0.0055
 
 GENERATION: 0
-Selected Strings: 14 7 8 11 11 14 0 11 11 19 2 19 8 7 5 9 13 9 14 11 
+Selected Strings: 14 7 8 11 11 14 0 11 11 19 2 19 8 7 5 9 13 9 14 11
 
 	X	Y		f(x)		new_str
    370.348	1641.021	3282.180	1110001011001100101000111001011000010000
@@ -1160,7 +1160,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: 0.0009  Fitness = 0.0055
 
 GENERATION: 0
-Selected Strings: 14 7 8 11 11 14 0 11 11 19 2 19 8 7 5 9 13 9 14 11 
+Selected Strings: 14 7 8 11 11 14 0 11 11 19 2 19 8 7 5 9 13 9 14 11
 
 	X	Y		f(x)		new_str
    370.348	1641.021	3282.180	1110001011001100101000111001011000010000
@@ -1189,7 +1189,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: 0.0009  Fitness = 0.0055
 
 GENERATION: 0
-Selected Strings: 14 7 8 11 11 14 0 11 11 19 2 19 8 7 5 9 13 9 14 11 
+Selected Strings: 14 7 8 11 11 14 0 11 11 19 2 19 8 7 5 9 13 9 14 11
 
 	X	Y		f(x)		new_str
    370.348	1641.021	3282.180	1110001011001100101000111001011000010000
@@ -1218,7 +1218,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: 0.0009  Fitness = 0.0055
 
 GENERATION: 0
-Selected Strings: 14 7 8 11 11 14 0 11 11 19 2 19 8 7 5 9 13 9 14 11 
+Selected Strings: 14 7 8 11 11 14 0 11 11 19 2 19 8 7 5 9 13 9 14 11
 
 	X	Y		f(x)		new_str
    370.348	1641.021	3282.180	1110001011001100101000111001011000010000
@@ -1247,7 +1247,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: 0.0009  Fitness = 0.0055
 
 GENERATION: 0
-Selected Strings: 14 7 8 11 11 14 0 11 11 19 2 19 8 7 5 9 13 9 14 11 
+Selected Strings: 14 7 8 11 11 14 0 11 11 19 2 19 8 7 5 9 13 9 14 11
 
 	X	Y		f(x)		new_str
    494.965	298.169	989.072	0010111111000001010101001001111111101000
@@ -1276,7 +1276,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: -0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 5 13 5 7 2 0 4 10 11 6 3 1 8 4 16 13 16 11 6 0 
+Selected Strings: 5 13 5 7 2 0 4 10 11 6 3 1 8 4 16 13 16 11 6 0
 
 	X	Y		f(x)		new_str
    494.965	298.169	989.072	0010111111000001010101001001111111101000
@@ -1305,7 +1305,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: -0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 5 13 5 7 2 0 4 10 11 6 3 1 8 4 16 13 16 11 6 0 
+Selected Strings: 5 13 5 7 2 0 4 10 11 6 3 1 8 4 16 13 16 11 6 0
 
 	X	Y		f(x)		new_str
    494.965	298.169	989.072	0010111111000001010101001001111111101000
@@ -1334,7 +1334,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: -0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 5 13 5 7 2 0 4 10 11 6 3 1 8 4 16 13 16 11 6 0 
+Selected Strings: 5 13 5 7 2 0 4 10 11 6 3 1 8 4 16 13 16 11 6 0
 
 	X	Y		f(x)		new_str
    494.965	298.169	989.072	0010111111000001010101001001111111101000
@@ -1363,7 +1363,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: -0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 5 13 5 7 2 0 4 10 11 6 3 1 8 4 16 13 16 11 6 0 
+Selected Strings: 5 13 5 7 2 0 4 10 11 6 3 1 8 4 16 13 16 11 6 0
 
 	X	Y		f(x)		new_str
    494.965	298.169	989.072	0010111111000001010101001001111111101000
@@ -1392,7 +1392,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: -0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 5 13 5 7 2 0 4 10 11 6 3 1 8 4 16 13 16 11 6 0 
+Selected Strings: 5 13 5 7 2 0 4 10 11 6 3 1 8 4 16 13 16 11 6 0
 
 	X	Y		f(x)		new_str
    494.965	298.169	989.072	0010111111000001010101001001111111101000
@@ -1421,7 +1421,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: -0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 5 13 5 7 2 0 4 10 11 6 3 1 8 4 16 13 16 11 6 0 
+Selected Strings: 5 13 5 7 2 0 4 10 11 6 3 1 8 4 16 13 16 11 6 0
 
 	X	Y		f(x)		new_str
    494.965	298.169	989.072	0010111111000001010101001001111111101000
@@ -1450,7 +1450,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: -0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 5 13 5 7 2 0 4 10 11 6 3 1 8 4 16 13 16 11 6 0 
+Selected Strings: 5 13 5 7 2 0 4 10 11 6 3 1 8 4 16 13 16 11 6 0
 
 	X	Y		f(x)		new_str
    1148.881	1537.479	3074.621	1101010011111110011110100001001011101000
@@ -1479,7 +1479,7 @@ Best result over all generations:
 Decoded value = X: -0.5283  Y: -0.5283  Fitness = -0.6848
 
 GENERATION: 0
-Selected Strings: 17 19 4 1 11 18 1 9 1 15 7 6 8 8 15 11 11 14 0 1 
+Selected Strings: 17 19 4 1 11 18 1 9 1 15 7 6 8 8 15 11 11 14 0 1
 
 	X	Y		f(x)		new_str
    1148.881	1537.479	3074.621	1101010011111110011110100001001011101000
@@ -1508,7 +1508,7 @@ Best result over all generations:
 Decoded value = X: -0.5283  Y: -0.5283  Fitness = -0.6848
 
 GENERATION: 0
-Selected Strings: 17 19 4 1 11 18 1 9 1 15 7 6 8 8 15 11 11 14 0 1 
+Selected Strings: 17 19 4 1 11 18 1 9 1 15 7 6 8 8 15 11 11 14 0 1
 
 	X	Y		f(x)		new_str
    1148.881	1537.479	3074.621	1101010011111110011110100001001011101000
@@ -1537,7 +1537,7 @@ Best result over all generations:
 Decoded value = X: -0.5283  Y: -0.5283  Fitness = -0.6848
 
 GENERATION: 0
-Selected Strings: 17 19 4 1 11 18 1 9 1 15 7 6 8 8 15 11 11 14 0 1 
+Selected Strings: 17 19 4 1 11 18 1 9 1 15 7 6 8 8 15 11 11 14 0 1
 
 	X	Y		f(x)		new_str
    1148.881	1537.479	3074.621	1101010011111110011110100001001011101000
@@ -1566,7 +1566,7 @@ Best result over all generations:
 Decoded value = X: -0.5283  Y: -0.5283  Fitness = -0.6848
 
 GENERATION: 0
-Selected Strings: 17 19 4 1 11 18 1 9 1 15 7 6 8 8 15 11 11 14 0 1 
+Selected Strings: 17 19 4 1 11 18 1 9 1 15 7 6 8 8 15 11 11 14 0 1
 
 	X	Y		f(x)		new_str
    1148.881	1537.479	3074.621	1101010011111110011110100001001011101000
@@ -1595,7 +1595,7 @@ Best result over all generations:
 Decoded value = X: -0.5283  Y: -0.5283  Fitness = -0.6848
 
 GENERATION: 0
-Selected Strings: 17 19 4 1 11 18 1 9 1 15 7 6 8 8 15 11 11 14 0 1 
+Selected Strings: 17 19 4 1 11 18 1 9 1 15 7 6 8 8 15 11 11 14 0 1
 
 	X	Y		f(x)		new_str
    1148.881	1537.479	3074.621	1101010011111110011110100001001011101000
@@ -1624,7 +1624,7 @@ Best result over all generations:
 Decoded value = X: -0.5283  Y: -0.5283  Fitness = -0.6848
 
 GENERATION: 0
-Selected Strings: 17 19 4 1 11 18 1 9 1 15 7 6 8 8 15 11 11 14 0 1 
+Selected Strings: 17 19 4 1 11 18 1 9 1 15 7 6 8 8 15 11 11 14 0 1
 
 	X	Y		f(x)		new_str
    128.559	1511.613	3023.602	1101000110001011100100011001001001000001
@@ -1653,7 +1653,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: -0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 5 6 17 17 16 0 17 7 4 13 13 19 10 17 8 2 9 8 8 19 
+Selected Strings: 5 6 17 17 16 0 17 7 4 13 13 19 10 17 8 2 9 8 8 19
 
 	X	Y		f(x)		new_str
    128.559	1511.613	3023.602	1101000110001011100100011001001001000001
@@ -1682,7 +1682,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: -0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 5 6 17 17 16 0 17 7 4 13 13 19 10 17 8 2 9 8 8 19 
+Selected Strings: 5 6 17 17 16 0 17 7 4 13 13 19 10 17 8 2 9 8 8 19
 
 	X	Y		f(x)		new_str
    128.559	1511.613	3023.602	1101000110001011100100011001001001000001
@@ -1711,7 +1711,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: -0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 5 6 17 17 16 0 17 7 4 13 13 19 10 17 8 2 9 8 8 19 
+Selected Strings: 5 6 17 17 16 0 17 7 4 13 13 19 10 17 8 2 9 8 8 19
 
 	X	Y		f(x)		new_str
    128.559	1511.613	3023.602	1101000110001011100100011001001001000001
@@ -1740,7 +1740,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: -0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 5 6 17 17 16 0 17 7 4 13 13 19 10 17 8 2 9 8 8 19 
+Selected Strings: 5 6 17 17 16 0 17 7 4 13 13 19 10 17 8 2 9 8 8 19
 
 	X	Y		f(x)		new_str
    128.559	1511.613	3023.602	1101000110001011100100011001001001000001
@@ -1769,7 +1769,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: -0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 5 6 17 17 16 0 17 7 4 13 13 19 10 17 8 2 9 8 8 19 
+Selected Strings: 5 6 17 17 16 0 17 7 4 13 13 19 10 17 8 2 9 8 8 19
 
 	X	Y		f(x)		new_str
    128.559	1511.613	3023.602	1101000110001011100100011001001001000001
@@ -1798,7 +1798,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: -0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 5 6 17 17 16 0 17 7 4 13 13 19 10 17 8 2 9 8 8 19 
+Selected Strings: 5 6 17 17 16 0 17 7 4 13 13 19 10 17 8 2 9 8 8 19
 
 	X	Y		f(x)		new_str
    244.022	1168.517	2335.839	1010001111001100110000101000100010010010
@@ -1827,7 +1827,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: -0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 5 12 19 9 7 9 17 16 9 0 16 5 17 17 17 9 8 7 8 19 
+Selected Strings: 5 12 19 9 7 9 17 16 9 0 16 5 17 17 17 9 8 7 8 19
 
 	X	Y		f(x)		new_str
    244.022	1168.517	2335.839	1010001111001100110000101000100010010010
@@ -1856,7 +1856,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: -0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 5 12 19 9 7 9 17 16 9 0 16 5 17 17 17 9 8 7 8 19 
+Selected Strings: 5 12 19 9 7 9 17 16 9 0 16 5 17 17 17 9 8 7 8 19
 
 	X	Y		f(x)		new_str
    244.022	1168.517	2335.839	1010001111001100110000101000100010010010
@@ -1885,7 +1885,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: -0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 5 12 19 9 7 9 17 16 9 0 16 5 17 17 17 9 8 7 8 19 
+Selected Strings: 5 12 19 9 7 9 17 16 9 0 16 5 17 17 17 9 8 7 8 19
 
 	X	Y		f(x)		new_str
    244.022	1168.517	2335.839	1010001111001100110000101000100010010010
@@ -1914,7 +1914,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: -0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 5 12 19 9 7 9 17 16 9 0 16 5 17 17 17 9 8 7 8 19 
+Selected Strings: 5 12 19 9 7 9 17 16 9 0 16 5 17 17 17 9 8 7 8 19
 
 	X	Y		f(x)		new_str
    244.022	1168.517	2335.839	1010001111001100110000101000100010010010
@@ -1943,7 +1943,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: -0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 5 12 19 9 7 9 17 16 9 0 16 5 17 17 17 9 8 7 8 19 
+Selected Strings: 5 12 19 9 7 9 17 16 9 0 16 5 17 17 17 9 8 7 8 19
 
 	X	Y		f(x)		new_str
    244.022	1168.517	2335.839	1010001111001100110000101000100010010010
@@ -1972,7 +1972,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: -0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 5 12 19 9 7 9 17 16 9 0 16 5 17 17 17 9 8 7 8 19 
+Selected Strings: 5 12 19 9 7 9 17 16 9 0 16 5 17 17 17 9 8 7 8 19
 
 	X	Y		f(x)		new_str
    1224.827	-29.871	2448.996	0000010000000100011010101011010011101100
@@ -2001,7 +2001,7 @@ Best result over all generations:
 Decoded value = X: -0.0009  Y: 0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 7 19 17 1 12 10 0 13 8 7 19 0 11 15 12 4 12 14 12 3 
+Selected Strings: 7 19 17 1 12 10 0 13 8 7 19 0 11 15 12 4 12 14 12 3
 
 	X	Y		f(x)		new_str
    1224.827	-29.871	2448.996	0000010000000100011010101011010011101100
@@ -2030,7 +2030,7 @@ Best result over all generations:
 Decoded value = X: -0.0009  Y: 0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 7 19 17 1 12 10 0 13 8 7 19 0 11 15 12 4 12 14 12 3 
+Selected Strings: 7 19 17 1 12 10 0 13 8 7 19 0 11 15 12 4 12 14 12 3
 
 	X	Y		f(x)		new_str
    1224.827	-29.871	2448.996	0000010000000100011010101011010011101100
@@ -2059,7 +2059,7 @@ Best result over all generations:
 Decoded value = X: -0.0009  Y: 0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 7 19 17 1 12 10 0 13 8 7 19 0 11 15 12 4 12 14 12 3 
+Selected Strings: 7 19 17 1 12 10 0 13 8 7 19 0 11 15 12 4 12 14 12 3
 
 	X	Y		f(x)		new_str
    1224.827	-29.871	2448.996	0000010000000100011010101011010011101100
@@ -2088,7 +2088,7 @@ Best result over all generations:
 Decoded value = X: -0.0009  Y: 0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 7 19 17 1 12 10 0 13 8 7 19 0 11 15 12 4 12 14 12 3 
+Selected Strings: 7 19 17 1 12 10 0 13 8 7 19 0 11 15 12 4 12 14 12 3
 
 	X	Y		f(x)		new_str
    1224.827	-29.871	2448.996	0000010000000100011010101011010011101100
@@ -2117,7 +2117,7 @@ Best result over all generations:
 Decoded value = X: -0.0009  Y: 0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 7 19 17 1 12 10 0 13 8 7 19 0 11 15 12 4 12 14 12 3 
+Selected Strings: 7 19 17 1 12 10 0 13 8 7 19 0 11 15 12 4 12 14 12 3
 
 	X	Y		f(x)		new_str
    1224.827	-29.871	2448.996	0000010000000100011010101011010011101100
@@ -2146,7 +2146,7 @@ Best result over all generations:
 Decoded value = X: -0.0009  Y: 0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 7 19 17 1 12 10 0 13 8 7 19 0 11 15 12 4 12 14 12 3 
+Selected Strings: 7 19 17 1 12 10 0 13 8 7 19 0 11 15 12 4 12 14 12 3
 
 	X	Y		f(x)		new_str
    1224.827	-29.871	2448.996	0000010000000100011010101011010011101100
@@ -2175,7 +2175,7 @@ Best result over all generations:
 Decoded value = X: -0.0009  Y: 0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 7 19 17 1 12 10 0 13 8 7 19 0 11 15 12 4 12 14 12 3 
+Selected Strings: 7 19 17 1 12 10 0 13 8 7 19 0 11 15 12 4 12 14 12 3
 
 	X	Y		f(x)		new_str
    241.413	1405.697	2810.889	1100001101101100011000101000001100000001
@@ -2204,7 +2204,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: -0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 16 16 0 17 2 16 3 16 1 5 1 19 19 16 16 17 17 2 12 13 
+Selected Strings: 16 16 0 17 2 16 3 16 1 5 1 19 19 16 16 17 17 2 12 13
 
 	X	Y		f(x)		new_str
    241.413	1405.697	2810.889	1100001101101100011000101000001100000001
@@ -2233,7 +2233,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: -0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 16 16 0 17 2 16 3 16 1 5 1 19 19 16 16 17 17 2 12 13 
+Selected Strings: 16 16 0 17 2 16 3 16 1 5 1 19 19 16 16 17 17 2 12 13
 
 	X	Y		f(x)		new_str
    241.413	1405.697	2810.889	1100001101101100011000101000001100000001
@@ -2262,7 +2262,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: -0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 16 16 0 17 2 16 3 16 1 5 1 19 19 16 16 17 17 2 12 13 
+Selected Strings: 16 16 0 17 2 16 3 16 1 5 1 19 19 16 16 17 17 2 12 13
 
 	X	Y		f(x)		new_str
    241.413	1405.697	2810.889	1100001101101100011000101000001100000001
@@ -2291,7 +2291,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: -0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 16 16 0 17 2 16 3 16 1 5 1 19 19 16 16 17 17 2 12 13 
+Selected Strings: 16 16 0 17 2 16 3 16 1 5 1 19 19 16 16 17 17 2 12 13
 
 	X	Y		f(x)		new_str
    241.413	1405.697	2810.889	1100001101101100011000101000001100000001
@@ -2320,7 +2320,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: -0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 16 16 0 17 2 16 3 16 1 5 1 19 19 16 16 17 17 2 12 13 
+Selected Strings: 16 16 0 17 2 16 3 16 1 5 1 19 19 16 16 17 17 2 12 13
 
 	X	Y		f(x)		new_str
    241.413	1405.697	2810.889	1100001101101100011000101000001100000001
@@ -2349,7 +2349,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: -0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 16 16 0 17 2 16 3 16 1 5 1 19 19 16 16 17 17 2 12 13 
+Selected Strings: 16 16 0 17 2 16 3 16 1 5 1 19 19 16 16 17 17 2 12 13
 
 	X	Y		f(x)		new_str
    744.737	995.046	1989.449	1000110010101011101101101011010010111111
@@ -2378,7 +2378,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: 0.0009  Fitness = 0.0055
 
 GENERATION: 0
-Selected Strings: 9 1 12 14 14 8 19 2 14 9 2 2 8 9 11 4 16 0 11 14 
+Selected Strings: 9 1 12 14 14 8 19 2 14 9 2 2 8 9 11 4 16 0 11 14
 
 	X	Y		f(x)		new_str
    744.737	995.046	1989.449	1000110010101011101101101011010010111111
@@ -2407,7 +2407,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: 0.0009  Fitness = 0.0055
 
 GENERATION: 0
-Selected Strings: 9 1 12 14 14 8 19 2 14 9 2 2 8 9 11 4 16 0 11 14 
+Selected Strings: 9 1 12 14 14 8 19 2 14 9 2 2 8 9 11 4 16 0 11 14
 
 	X	Y		f(x)		new_str
    744.737	995.046	1989.449	1000110010101011101101101011010010111111
@@ -2436,7 +2436,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: 0.0009  Fitness = 0.0055
 
 GENERATION: 0
-Selected Strings: 9 1 12 14 14 8 19 2 14 9 2 2 8 9 11 4 16 0 11 14 
+Selected Strings: 9 1 12 14 14 8 19 2 14 9 2 2 8 9 11 4 16 0 11 14
 
 	X	Y		f(x)		new_str
    744.737	995.046	1989.449	1000110010101011101101101011010010111111
@@ -2465,7 +2465,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: 0.0009  Fitness = 0.0055
 
 GENERATION: 0
-Selected Strings: 9 1 12 14 14 8 19 2 14 9 2 2 8 9 11 4 16 0 11 14 
+Selected Strings: 9 1 12 14 14 8 19 2 14 9 2 2 8 9 11 4 16 0 11 14
 
 	X	Y		f(x)		new_str
    744.737	995.046	1989.449	1000110010101011101101101011010010111111
@@ -2494,7 +2494,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: 0.0009  Fitness = 0.0055
 
 GENERATION: 0
-Selected Strings: 9 1 12 14 14 8 19 2 14 9 2 2 8 9 11 4 16 0 11 14 
+Selected Strings: 9 1 12 14 14 8 19 2 14 9 2 2 8 9 11 4 16 0 11 14
 
 	X	Y		f(x)		new_str
    744.737	995.046	1989.449	1000110010101011101101101011010010111111
@@ -2523,7 +2523,7 @@ Best result over all generations:
 Decoded value = X: 0.0009  Y: 0.0009  Fitness = 0.0055
 
 GENERATION: 0
-Selected Strings: 9 1 12 14 14 8 19 2 14 9 2 2 8 9 11 4 16 0 11 14 
+Selected Strings: 9 1 12 14 14 8 19 2 14 9 2 2 8 9 11 4 16 0 11 14
 
 	X	Y		f(x)		new_str
    977.070	262.639	1953.620	0010101100000100100110001010010001100010
@@ -2552,7 +2552,7 @@ Best result over all generations:
 Decoded value = X: -0.4678  Y: -0.4678  Fitness = -0.6743
 
 GENERATION: 0
-Selected Strings: 17 3 16 2 12 10 12 0 0 13 10 15 1 4 3 14 8 11 7 14 
+Selected Strings: 17 3 16 2 12 10 12 0 0 13 10 15 1 4 3 14 8 11 7 14
 
 	X	Y		f(x)		new_str
    977.070	262.639	1953.620	0010101100000100100110001010010001100010
@@ -2581,7 +2581,7 @@ Best result over all generations:
 Decoded value = X: -0.4678  Y: -0.4678  Fitness = -0.6743
 
 GENERATION: 0
-Selected Strings: 17 3 16 2 12 10 12 0 0 13 10 15 1 4 3 14 8 11 7 14 
+Selected Strings: 17 3 16 2 12 10 12 0 0 13 10 15 1 4 3 14 8 11 7 14
 
 	X	Y		f(x)		new_str
    977.070	262.639	1953.620	0010101100000100100110001010010001100010
@@ -2610,7 +2610,7 @@ Best result over all generations:
 Decoded value = X: -0.4678  Y: -0.4678  Fitness = -0.6743
 
 GENERATION: 0
-Selected Strings: 17 3 16 2 12 10 12 0 0 13 10 15 1 4 3 14 8 11 7 14 
+Selected Strings: 17 3 16 2 12 10 12 0 0 13 10 15 1 4 3 14 8 11 7 14
 
 	X	Y		f(x)		new_str
    977.070	262.639	1953.620	0010101100000100100110001010010001100010
@@ -2639,7 +2639,7 @@ Best result over all generations:
 Decoded value = X: -0.4678  Y: -0.4678  Fitness = -0.6743
 
 GENERATION: 0
-Selected Strings: 17 3 16 2 12 10 12 0 0 13 10 15 1 4 3 14 8 11 7 14 
+Selected Strings: 17 3 16 2 12 10 12 0 0 13 10 15 1 4 3 14 8 11 7 14
 
 	X	Y		f(x)		new_str
    977.070	262.639	1953.620	0010101100000100100110001010010001100010
@@ -2668,7 +2668,7 @@ Best result over all generations:
 Decoded value = X: -0.4678  Y: -0.4678  Fitness = -0.6743
 
 GENERATION: 0
-Selected Strings: 17 3 16 2 12 10 12 0 0 13 10 15 1 4 3 14 8 11 7 14 
+Selected Strings: 17 3 16 2 12 10 12 0 0 13 10 15 1 4 3 14 8 11 7 14
 
 	X	Y		f(x)		new_str
    977.070	262.639	1953.620	0010101100000100100110001010010001100010
@@ -2697,7 +2697,7 @@ Best result over all generations:
 Decoded value = X: -0.4678  Y: -0.4678  Fitness = -0.6743
 
 GENERATION: 0
-Selected Strings: 17 3 16 2 12 10 12 0 0 13 10 15 1 4 3 14 8 11 7 14 
+Selected Strings: 17 3 16 2 12 10 12 0 0 13 10 15 1 4 3 14 8 11 7 14
 
 	X	Y		f(x)		new_str
    977.070	262.639	1953.620	0010101100000100100110001010010001100010
@@ -2725,8 +2725,10 @@ Best result over all generations:
 0000011111110000000000000111111100000000
 Decoded value = X: -0.4678  Y: -0.4678  Fitness = -0.6743
 
+<--------------------------------------------------------------------------------JUST FUCKS UP HERE FOR SOME REASON
+
 GENERATION: 0
-Selected Strings: 17 3 16 2 12 10 12 0 0 13 10 15 1 4 3 14 8 11 7 14 
+Selected Strings: 17 3 16 2 12 10 12 0 0 13 10 15 1 4 3 14 8 11 7 14
 
 	X	Y		f(x)		new_str
    78.128	1321.383	2641.398	1011100000101110100000010010011010101011
@@ -2755,7 +2757,7 @@ Best result over all generations:
 Decoded value = X: -0.0009  Y: 0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 10 9 15 5 4 0 14 9 8 17 14 15 18 18 19 3 12 14 5 2 
+Selected Strings: 10 9 15 5 4 0 14 9 8 17 14 15 18 18 19 3 12 14 5 2
 
 	X	Y		f(x)		new_str
    78.128	1321.383	2641.398	1011100000101110100000010010011010101011
@@ -2784,7 +2786,7 @@ Best result over all generations:
 Decoded value = X: -0.0009  Y: 0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 10 9 15 5 4 0 14 9 8 17 14 15 18 18 19 3 12 14 5 2 
+Selected Strings: 10 9 15 5 4 0 14 9 8 17 14 15 18 18 19 3 12 14 5 2
 
 	X	Y		f(x)		new_str
    78.128	1321.383	2641.398	1011100000101110100000010010011010101011
@@ -2813,7 +2815,7 @@ Best result over all generations:
 Decoded value = X: -0.0009  Y: 0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 10 9 15 5 4 0 14 9 8 17 14 15 18 18 19 3 12 14 5 2 
+Selected Strings: 10 9 15 5 4 0 14 9 8 17 14 15 18 18 19 3 12 14 5 2
 
 	X	Y		f(x)		new_str
    78.128	1321.383	2641.398	1011100000101110100000010010011010101011
@@ -2842,7 +2844,7 @@ Best result over all generations:
 Decoded value = X: -0.0009  Y: 0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 10 9 15 5 4 0 14 9 8 17 14 15 18 18 19 3 12 14 5 2 
+Selected Strings: 10 9 15 5 4 0 14 9 8 17 14 15 18 18 19 3 12 14 5 2
 
 	X	Y		f(x)		new_str
    78.128	1321.383	2641.398	1011100000101110100000010010011010101011
@@ -2871,7 +2873,7 @@ Best result over all generations:
 Decoded value = X: -0.0009  Y: 0.0009  Fitness = 0.0018
 
 GENERATION: 0
-Selected Strings: 10 9 15 5 4 0 14 9 8 17 14 15 18 18 19 3 12 14 5 2 
+Selected Strings: 10 9 15 5 4 0 14 9 8 17 14 15 18 18 19 3 12 14 5 2
 
 	X	Y		f(x)		new_str
    78.128	1321.383	2641.398	1011100000101110100000010010011010101011
