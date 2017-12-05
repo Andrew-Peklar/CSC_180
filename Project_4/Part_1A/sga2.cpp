@@ -333,7 +333,7 @@ void finalreport()
   for (int j=0; j<CHROM_LENGTH; j++)
     cout << (int) verybest.string[j];
   cout << endl;
-  cout << "Value X = " << convRange(verybest.valueX) << endl;
-  cout << "Value Y = " << convRange(verybest.valueY) << endl;
-  cout << "Fitness = " << verybest.fitness << endl;
+  cout << "Decoded value = X: " << convRange(verybest.valueX);
+  cout << "  Y: " << convRange(verybest.valueY);
+  cout << "  Fitness = " << verybest.fitness << endl;
 }
