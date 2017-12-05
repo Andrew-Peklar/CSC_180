@@ -19,13 +19,14 @@
 #include <time.h>
 using namespace std;
 
-#define POPULATION_SIZE 20    // population size - number of strings
-#define CHROM_LENGTH    40    // binary string length of each individual
-#define PMUT            0.03  // probability of flipping each bit
-#define MAX_GEN         1000    // GA stops after this many generations
-#define GEN_REP         2000    // report is generated at these intervals
-#define ELITE            1      // 1=elitism,  0=no elitism
-#define MAXMIN          -1     // -1=minimize, 1=maximize
+#define POPULATION_SIZE    20  // population size - number of strings
+#define CHROM_LENGTH       40  // binary string length of each individual
+#define PMUT             0.03  // probability of flipping each bit
+#define MAX_GEN          1000  // GA stops after this many generations
+#define GEN_REP          2000  // report is generated at these intervals
+#define ELITE               1  // 1=elitism,  0=no elitism
+#define MAXMIN             -1  // -1=minimize, 1=maximize
+#define REPS              100  // repeats to gather averages across multiple seeds
 
 /***************************************************************
 ****  random fraction between 0.0 and 1.0                  *****
@@ -36,7 +37,7 @@ void   initialize_population();
 void   crossover(int parent1, int parent2, int child1, int child2);
 void   mutation();
 void   tselection();
-int    decode(int index);
+void   decode(int index);
 void   getpreviousbest();
 double evaluate(int valueX, int valueY);
 double convRange(int raw);
@@ -57,50 +58,53 @@ struct individual new_pool[POPULATION_SIZE];
 struct individual beststring, verybest;
 
 int selected[POPULATION_SIZE];
-int generations;
+int generations, bestGen, bestAvgGen;
 
 /*********************************************************/
-int main()
-{
+int main() {
+  bestAvgGen = 0;
   cout.setf(ios::fixed); cout.setf(ios::showpoint); cout.precision(4);
   int i;
-  generations = 0;
-  if (MAXMIN==-1) verybest.fitness = 999999; else verybest.fitness=-999999;
 
-  srand(time(NULL));
-  initialize_population();
-  generations = 1;
+  //added for looop
+  for(int j = 0; j < REPS; j++) {
+    generations = 0;
+    if (MAXMIN==-1) verybest.fitness = 999999;
+    else            verybest.fitness =-999999;
 
-  do
-  {
-    getpreviousbest();
+    srand(time(NULL)); // IDK what this is for
+    initialize_population();
+    generations = 1;
+    bestGen = generations;
 
-    /*** SELECTION ***/
-    tselection();
+    do {
+      getpreviousbest();
 
-    /*** CROSSOVER ***/
-    for (i=0; i<POPULATION_SIZE; i=i+2)
-      crossover(selected[i],selected[i+1],i,i+1);
+      /*** SELECTION ***/
+      tselection();
 
-    /*** MUTATION ***/
-    mutation();
+      /*** CROSSOVER ***/
+      for (i=0; i<POPULATION_SIZE; i=i+2)
+        crossover(selected[i],selected[i+1],i,i+1);
 
-    /*** EVALUATE ***/
-    for (i=0; i<POPULATION_SIZE; i++)
-    {
-      pool[i].value = decode(i);
-      pool[i].fitness = evaluate(pool[i].valueX, pool[i].valueY);
-    }
+      /*** MUTATION ***/
+      mutation();
 
-    if (ELITE==1)
-      elite();
+      /*** EVALUATE ***/
+      for (i=0; i<POPULATION_SIZE; i++) {
+        decode(i);
+        pool[i].fitness = evaluate(pool[i].valueX, pool[i].valueY);
+      }
 
-    if (generations % GEN_REP == 0)
-      statistics();
+      /*** ELITISM ***/
+      if (ELITE==1) elite();
+      if (generations % GEN_REP == 0) statistics();
 
-  } while (++generations < MAX_GEN);
-
-  finalreport();
+    } while (++generations < MAX_GEN);
+    bestAvgGen += bestGen;
+    finalreport();
+  } // end of for loop
+  cout << "Average to get best result: " << bestAvgGen/REPS;
   return(0);
 }
 
@@ -164,11 +168,10 @@ void elite()
 **********************************************************/
 void initialize_population()
 {
-  for (int i=0; i<POPULATION_SIZE; i++)
-  {
+  for (int i=0; i<POPULATION_SIZE; i++) {
     for (int j=0; j<CHROM_LENGTH; j++ )
       pool[i].string[j] = flip(0.5);
-    pool[i].value = decode(i);
+    decode(i);
     pool[i].fitness = evaluate(pool[i].valueX, pool[i].valueY);
   }
   statistics();
@@ -213,6 +216,7 @@ void getpreviousbest()
     for (int j=0; j<CHROM_LENGTH; j++)
       verybest.string[j] = beststring.string[j];
     verybest.fitness = beststring.fitness;
+    bestGen = generations;
   }
 }
 
@@ -273,8 +277,9 @@ void decode(int index)
 *********************************************************/
 double evaluate(int valueX, int valueY)
 {
-  double x = convRange(value);
-  double g = (double) (0.1*(fabs(d))-sin(d));
+  double x = convRange(valueX);
+  double y = convRange(valueY);
+  double g = (double) ((fabs(x+y))+(fabs(x-y))+(sin(2*x)+sin(2*y)));
   return(g);
 }
 
@@ -302,18 +307,18 @@ int flip(double prob)
 void statistics()
 {
   int i,j;
-  cout.setf(ios::fixed); cout.setf(ios::showpoint); cout.precision(4);
+  cout.setf(ios::fixed); cout.setf(ios::showpoint); cout.precision(3);
 
   cout << "\nGENERATION: " << generations << endl << "Selected Strings: ";
   for (i=0; i<POPULATION_SIZE; i++) cout << selected[i] << " ";
-  cout << endl << "\n\tX\tf(x)\t\tnew_str\t\tX";
+  cout << endl << "\n\tX\tY\t\tf(x)\t\tnew_str";
   for (i=0; i<POPULATION_SIZE; i++)
   {
     cout << endl << "   ";
-    cout << convRange(pool[i].value)<<"\t"<<pool[i].fitness << "\t";
+    cout << convRange(pool[i].valueX)<<"\t"<<convRange(pool[i].valueY)<<"\t"<<pool[i].fitness << "\t";
     for (j=0; j<CHROM_LENGTH; j++)
       cout << (int) pool[i].string[j];
-    cout << "\t" << convRange(decode(i));
+    //cout << "\t" << convRange(decode(i));
   }
   cout << endl;
 }
@@ -328,6 +333,7 @@ void finalreport()
   for (int j=0; j<CHROM_LENGTH; j++)
     cout << (int) verybest.string[j];
   cout << endl;
-  cout << "Decoded value = " << convRange(verybest.value);
-  cout << "  Fitness = " << verybest.fitness << endl;
+  cout << "Value X = " << convRange(verybest.valueX) << endl;
+  cout << "Value Y = " << convRange(verybest.valueY) << endl;
+  cout << "Fitness = " << verybest.fitness << endl;
 }
