@@ -19,14 +19,14 @@
 #include <time.h>
 using namespace std;
 
-#define POPULATION_SIZE    20  // population size - number of strings
+#define POPULATION_SIZE    30  // population size - number of strings
 #define CHROM_LENGTH       40  // binary string length of each individual
-#define PMUT             0.03  // probability of flipping each bit
+#define PMUT             0.1  // probability of flipping each bit
 #define MAX_GEN          1000  // GA stops after this many generations
 #define GEN_REP          2000  // report is generated at these intervals
-#define ELITE               1  // 1=elitism,  0=no elitism
+#define ELITE               0  // 1=elitism,  0=no elitism
 #define MAXMIN             -1  // -1=minimize, 1=maximize
-#define REPS              100  // repeats to gather averages across multiple seeds
+#define REPS               80  // repeats to gather averages across multiple seeds
 
 /***************************************************************
 ****  random fraction between 0.0 and 1.0                  *****
@@ -153,6 +153,7 @@ void tselection()
 **********************************************************/
 void elite()
 {
+  decode(0);
   if ((MAXMIN*beststring.fitness) > (MAXMIN*evaluate(pool[0].valueX, pool[0].valueY)))
   {
     pool[0].fitness = beststring.fitness;
@@ -274,12 +275,15 @@ void decode(int index)
 
 /*********************************************************
    F(X) = abs(x+y) + abs(x-y) + (sin(2x) + sin(2y))
+
+   F(x,y) = (x*x)/abs(x) - (y*y)/abs(y) + (sin(x*2) + sin(2*y))
 *********************************************************/
 double evaluate(int valueX, int valueY)
 {
   double x = convRange(valueX);
   double y = convRange(valueY);
-  double g = (double) ((fabs(x+y))+(fabs(x-y))+(sin(2*x)+sin(2*y)));
+  double g = (double) (((x*x)/(fabs(x)))-((y*y)/(fabs(y)))+(sin(2*x)+sin(2*y)));
+  //double g = (double) ((fabs(x+y))+(fabs(x-y))+(sin(2*x)+sin(2*y)));
   return(g);
 }
 
@@ -289,7 +293,7 @@ double evaluate(int valueX, int valueY)
 **********************************************************/
 double convRange(int raw)
 {
-  double outval = ((((double)raw)/65535.0)*120.0)-60.0;
+  double outval = ((((double)raw)/1048575.0)*10)-5.0;
   return(outval);
 }
 
