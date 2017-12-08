@@ -281,7 +281,8 @@ double evaluate(int valueX,int valueY)
 {
   double x = convRange(valueX);
   double y = convRange(valueY);
-  double g = (double) ((fabs(x))+(fabs(y))+(1-cos(2*y)+sin(2*x)));
+  double g = (double) (((x*x)/(fabs(x)))-((y*y)/(fabs(y)))+(sin(2*x)+sin(2*y)));
+  //double g = (double) ((fabs(x))+(fabs(y))+(1-cos(2*y)+sin(2*x)));
   return(g);
 }
 
@@ -291,7 +292,7 @@ double evaluate(int valueX,int valueY)
 **********************************************************/
 double convRange(int raw)
 {
-  double outval = ((((double)raw)/65535.0)*50)-25.0;
+  double outval = ((((double)raw)/1048575.0)*10)-5.0;
   return(outval);
 }
 

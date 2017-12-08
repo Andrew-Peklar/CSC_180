@@ -19,14 +19,14 @@
 #include <time.h>
 using namespace std;
 
-#define POPULATION_SIZE    30  // population size - number of strings
+#define POPULATION_SIZE    20  // population size - number of strings
 #define CHROM_LENGTH       40  // binary string length of each individual
 #define PMUT             0.1  // probability of flipping each bit
 #define MAX_GEN          1000  // GA stops after this many generations
 #define GEN_REP          2000  // report is generated at these intervals
-#define ELITE               0  // 1=elitism,  0=no elitism
+#define ELITE               1  // 1=elitism,  0=no elitism
 #define MAXMIN             -1  // -1=minimize, 1=maximize
-#define REPS               80  // repeats to gather averages across multiple seeds
+#define REPS              100  // repeats to gather averages across multiple seeds
 
 /***************************************************************
 ****  random fraction between 0.0 and 1.0                  *****
