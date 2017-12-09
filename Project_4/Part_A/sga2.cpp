@@ -104,7 +104,7 @@ int main() {
     bestAvgGen += bestGen;
     finalreport();
   } // end of for loop
-  cout << "Average to get best result: " << bestAvgGen/REPS;
+  cout << "Average to get best result: " << bestAvgGen/REPS << endl;
   return(0);
 }
 
@@ -293,7 +293,7 @@ double evaluate(int valueX, int valueY)
 **********************************************************/
 double convRange(int raw)
 {
-  double outval = ((((double)raw)/1048575.0)*10)-5.0;
+  double outval = ((((double)raw)/1048575.0)*50)-25.0;
   return(outval);
 }
 
