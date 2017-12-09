@@ -1,5 +1,4 @@
 Chosen Function:	- f(x,y) = abs(x+y)  + abs(x-y) + (sin(2y) + sin(2x))
-Possible alternative:   - f(x,y) = (x*x)/abs(x) - (y*y)/abs(y) + (sin(x*2) + sin(2*y))
 
 Local Minima:		- roughly -0.684853 at (x,y) = (-0.523602, -0.523602) 
 			- Source is Wolfram Alhpa

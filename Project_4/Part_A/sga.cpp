@@ -2,7 +2,8 @@
   SGA - Simple Genetic Algorithm
   ------------------------------
   Sin Bowl minimization 2012
-    - most recent bug fixes: 09/1012 by John Johnson
+    - recent bug fixes:   09/2012 by John Johnson
+    - slight mod to rand: 11/2017 by Scott Gordon
   ------------------------------
   SGA Adapted from David Goldberg:
     "Genetic Algorithms in Search, Optimization, and Machine Learning"
@@ -15,16 +16,17 @@
 #include <iostream>
 #include <cmath>
 #include <cstdlib>
+#include <time.h>
 using namespace std;
 
-#define POPULATION_SIZE 16    // population size - number of strings
-#define CHROM_LENGTH    32    // binary string length of each individual
-#define PMUT            0.03  // probability of flipping each bit
-#define MAX_GEN         1000   // GA stops after this many generations
-#define GEN_REP         2000     // report is generated at these intervals
-#define ELITE           1     // 1=elitism,  0=no elitism
-#define MAXMIN          -1    // -1=minimize, 1=maximize
-#define FULL_REPS       100     //full repeats to get averages across multiple random seeds
+#define POPULATION_SIZE    20  // population size - number of strings
+#define CHROM_LENGTH       40  // binary string length of each individual
+#define PMUT             0.1  // probability of flipping each bit
+#define MAX_GEN          1000  // GA stops after this many generations
+#define GEN_REP          2000  // report is generated at these intervals
+#define ELITE               1  // 1=elitism,  0=no elitism
+#define MAXMIN             -1  // -1=minimize, 1=maximize
+#define REPS              100  // repeats to gather averages across multiple seeds
 
 /***************************************************************
 ****  random fraction between 0.0 and 1.0                  *****
@@ -54,57 +56,55 @@ struct individual
 struct individual pool[POPULATION_SIZE];
 struct individual new_pool[POPULATION_SIZE];
 struct individual beststring, verybest;
-int bestGeneration, averageBestGen;
 
 int selected[POPULATION_SIZE];
-int generations;
+int generations, bestGen, bestAvgGen;
 
 /*********************************************************/
-int main()
-{
-  averageBestGen = 0;
+int main() {
+  bestAvgGen = 0;
   cout.setf(ios::fixed); cout.setf(ios::showpoint); cout.precision(4);
   int i;
-  for(int j = 0; j<FULL_REPS;j++){
-  generations = 0;
-  if (MAXMIN==-1) verybest.fitness = 999999; else verybest.fitness=-999999;
 
-  initialize_population();
-  generations = 1;
-  bestGeneration = generations;
+  //added for looop
+  for(int j = 0; j < REPS; j++) {
+    generations = 0;
+    if (MAXMIN==-1) verybest.fitness = 999999;
+    else            verybest.fitness =-999999;
 
-  do
-  {
-    getpreviousbest();
+    srand(time(NULL)); // IDK what this is for
+    initialize_population();
+    generations = 1;
+    bestGen = generations;
 
-    /*** SELECTION ***/
-    tselection();
+    do {
+      getpreviousbest();
 
-    /*** CROSSOVER ***/
-    for (i=0; i<POPULATION_SIZE; i=i+2)
-      crossover(selected[i],selected[i+1],i,i+1);
+      /*** SELECTION ***/
+      tselection();
 
-    /*** MUTATION ***/
-    mutation();
+      /*** CROSSOVER ***/
+      for (i=0; i<POPULATION_SIZE; i=i+2)
+        crossover(selected[i],selected[i+1],i,i+1);
 
-    /*** EVALUATE ***/
-    for (i=0; i<POPULATION_SIZE; i++)
-    {
-      decode(i);
-      pool[i].fitness = evaluate(pool[i].valueX, pool[i].valueY);
-    }
+      /*** MUTATION ***/
+      mutation();
 
-    if (ELITE==1)
-      elite();
+      /*** EVALUATE ***/
+      for (i=0; i<POPULATION_SIZE; i++) {
+        decode(i);
+        pool[i].fitness = evaluate(pool[i].valueX, pool[i].valueY);
+      }
 
-    if (generations % GEN_REP == 0)
-      statistics();
+      /*** ELITISM ***/
+      if (ELITE==1) elite();
+      if (generations % GEN_REP == 0) statistics();
 
-  } while (++generations < MAX_GEN);
-  averageBestGen+=bestGeneration;
-  finalreport();
-  }
-  cout << "average to get best result: " << averageBestGen/FULL_REPS;
+    } while (++generations < MAX_GEN);
+    bestAvgGen += bestGen;
+    finalreport();
+  } // end of for loop
+  cout << "Average to get best result: " << bestAvgGen/REPS << endl;
   return(0);
 }
 
@@ -169,8 +169,7 @@ void elite()
 **********************************************************/
 void initialize_population()
 {
-  for (int i=0; i<POPULATION_SIZE; i++)
-  {
+  for (int i=0; i<POPULATION_SIZE; i++) {
     for (int j=0; j<CHROM_LENGTH; j++ )
       pool[i].string[j] = flip(0.5);
     decode(i);
@@ -218,7 +217,7 @@ void getpreviousbest()
     for (int j=0; j<CHROM_LENGTH; j++)
       verybest.string[j] = beststring.string[j];
     verybest.fitness = beststring.fitness;
-    bestGeneration = generations;
+    bestGen = generations;
   }
 }
 
@@ -261,7 +260,7 @@ void mutation()
 }
 
 /*********************************************************
-    Convert bitstring to positive integers x and y
+    Convert bitstring to positive integer
 **********************************************************/
 void decode(int index)
 {
@@ -275,14 +274,13 @@ void decode(int index)
 }
 
 /*********************************************************
-   F(X) = abs(x)+abs(y)+(1-cos(2y)+sin(2x))
+   f(x,y) = abs(x+y) + abs(x-y) + (sin(2x) + sin(2y))
 *********************************************************/
-double evaluate(int valueX,int valueY)
+double evaluate(int valueX, int valueY)
 {
   double x = convRange(valueX);
   double y = convRange(valueY);
-  double g = (double) (((x*x)/(fabs(x)))-((y*y)/(fabs(y)))+(sin(2*x)+sin(2*y)));
-  //double g = (double) ((fabs(x))+(fabs(y))+(1-cos(2*y)+sin(2*x)));
+  double g = (double) ((fabs(x+y))+(fabs(x-y))+(sin(2*x)+sin(2*y)));
   return(g);
 }
 
@@ -292,7 +290,7 @@ double evaluate(int valueX,int valueY)
 **********************************************************/
 double convRange(int raw)
 {
-  double outval = ((((double)raw)/1048575.0)*10)-5.0;
+  double outval = ((((double)raw)/1048575.0)*50)-25.0;
   return(outval);
 }
 
